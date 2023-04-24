@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>    
+<head>
     <meta charset="UTF-8">
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>    
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Horo</title>
 </head>
@@ -12,12 +12,14 @@
         <p>Enter your date of birth to get your Horo for today</p>
         <button id="start">Start</button>
     </div>
-    <label for"dob">Date of birth:</label>
-    <input type="date" id="dob" name="date-of-birth"
-           value="1990-06-15"
-           min="1900-01-01"
-           max="2049-12-31">
-    <button id="calculate">Calculate</button>
+    <form id="form">
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="date-of-birth"
+               value="1990-06-15"
+               min="1900-01-01"
+               max="2049-12-31">
+        <button id="calculate">Calculate</button>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>
