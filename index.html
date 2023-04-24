@@ -8,16 +8,16 @@
 </head>
 <body>
     <div id="main">
-        <h1>Personal horo</h1>
+        <h1>Personal Horo</h1>
         <p>Enter your date of birth to get your Horo for today</p>
         <button id="start">Start</button>
     </div>
-    <form id="form">
-        <input type="text" placeholder="Year" id="yobirth">
-        <input type="text" placeholder="Month" id="mobirth">
-        <input type="text" placeholder="Day" id="dobirth">
-        <button id="calculate">Calculate</button>
-    </form>
+    <label for"dob">Date of birth:</label>
+    <input type="date" id="dob" name="date-of-birth"
+           value="1990-06-15"
+           min="1900-01-01"
+           max="2049-12-31">
+    <button id="calculate">Calculate</button>
     <script src="script.js"></script>
 </body>
 </html>
