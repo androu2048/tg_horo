@@ -1,0 +1,13 @@
+body {
+  color: var(--tg-theme-text-color);
+  background: vat(--tg-theme-bg-color);
+}
+
+button {
+  color: var(--tg-theme-text-color);
+  background: vat(--tg-theme-bg-color);
+}
+
+button:hover {
+  background: var(--tg-theme-secondary-bg-color);
+}
