@@ -3,6 +3,10 @@ body {
   background: vat(--tg-theme-bg-color);
 }
 
+#main {
+  display: none;
+}
+
 button {
   color: var(--tg-theme-text-color);
   background: vat(--tg-theme-bg-color);
@@ -13,7 +17,7 @@ button:hover {
 }
 
 #form {
-  display: none;
+  display: block;
   text-align: center;
 }
 
