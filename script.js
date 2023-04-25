@@ -4,11 +4,11 @@ let calculate = document.getElementById("calculate");
 tg.expand();
 
 calculate.addEventListener("click", () => {
-  let yob = document.querySelector("#year");
-  let mob = document.querySelector("#month");
-  let dob = document.querySelector("#day");
+  let date = new Date(document.querySelector('input[type="date"]').value);
 
-  document.getElementById("test").style.display = "none";
+  let yob = date.getFullYear();
+  let mob = date.getMonth() + 1;
+  let dob = date.getDate();
 
   let data = {
     yob: yob,
