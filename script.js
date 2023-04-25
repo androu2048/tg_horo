@@ -10,14 +10,14 @@ calculate.addEventListener("click", () => {
   let mob = date.getMonth() + 1;
   let dob = date.getDate();
 
-  let data = {
+  let birthday = {
     yob: yob,
     mob: mob,
     dob: dob
   };
 
-  console.log(data);
-  tg.sendData(data);
+  console.log(birthday);
+  tg.sendData(birthday);
 
   tg.close();
 
