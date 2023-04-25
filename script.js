@@ -17,7 +17,7 @@ calculate.addEventListener("click", () => {
   };
 
   console.log(data);
-  tg.sendData(data);
+  tg.sendData("data");
 
   tg.close();
 
