@@ -13,13 +13,20 @@
         <button id="start">Start</button>
     </div>
     <form id="form">
-        <label>Date of birth:</label>
+        <label for="sign-select">Choose your sign or enter the date of birth manually:</label>
         <br>
-        <input type="date" id="date-of-birth" name="date-of-birth"
-               value="1990-06-15"
-               min="1900-01-01"
-               max="2049-12-31" />
-        <br>
+        <select id="sign-select">
+            <option value="">--Choose an option--</option>
+            <option value="manually">Choose manually</option>
+            <option value="aries">Aries</option>
+            <option value="taurus">Taurus</option>
+        </select>
+            <br>
+        <label>Enter manually</label>
+            <input type="date" id="date-of-birth" name="date-of-birth"
+                   value="1990-06-15"
+                   min="1900-01-01"
+                   max="2049-12-31" />
         <button id="calculate">Calculate</button>
     </form>
     <label id="test"></label>
