@@ -7,29 +7,58 @@
     <title>Horo</title>
 </head>
 <body>
-    <div id="main">
-        <h1>Personal Horo</h1>
-        <p>Enter your date of birth to get your Horo for today</p>
-        <button id="start">Start</button>
-    </div>
-    <form id="form">
-        <label for="sign-select">Choose your sign or enter the date of birth manually:</label>
-        <br>
-        <select id="sign-select">
-            <option value="">--Choose an option--</option>
-            <option value="manually">Choose manually</option>
-            <option value="aries">Aries</option>
-            <option value="taurus">Taurus</option>
-        </select>
-            <br>
-        <label>Enter manually</label>
-            <input type="date" id="date-of-birth" name="date-of-birth"
-                   value="1990-06-15"
-                   min="1900-01-01"
-                   max="2049-12-31" />
-        <button id="calculate">Calculate</button>
-    </form>
-    <label id="test"></label>
-    <script src="script.js"></script>
+    <div class="container">
+		<div class="inner" id="wrapper">
+			<div class="item">
+				<img src="images/signs.png" alt="Aries sign" class="img" id="img_aries">
+				<button class="btn" id="btn_aries">Aries</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Taurus sign" class="img" id="img_taurus">
+				<button class="btn" id="btn_taurus">Taurus</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Gemini sign" class="img" id="img_gemini">
+				<button class="btn" id="btn_gemini">Gemini</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Cancer sign" class="img" id="img_cancer">
+				<button class="btn" id="btn_cancer">Cancer</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Leo sign" class="img" id="img_leo">
+				<button class="btn" id="btn_leo">Leo</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Virgo sign" class="img" id="img_virgo">
+				<button class="btn" id="btn_virgo">Virgo</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Libra sign" class="img" id="img_libra">
+				<button class="btn" id="btn_libra">Libra</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Scorpio sign" class="img" id="img_scorpio">
+				<button class="btn" id="btn_scorpio">Scorpio</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Sagittarius sign" class="img" id="img_sagittarius">
+				<button class="btn" id="btn_sagittarius">Sagittarius</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Capricorn sign" class="img" id="img_capricorn">
+				<button class="btn" id="btn_capricorn">Capricorn</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Aquarius sign" class="img" id="img_aquarius">
+				<button class="btn" id="btn_aquarius">Aquarius</button>
+			</div>
+			<div class="item">
+				<img src="images/signs.png" alt="Pisces sign" class="img" id="img_pisces">
+				<button class="btn" id="btn_pisces">Pisces</button>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
 </body>
 </html>
