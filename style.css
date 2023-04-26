@@ -40,13 +40,13 @@ input:focus {
 	display: inline-block;
 	padding: 10px 10px;
 	border: none;
-	border-radius: 20px;
+	border-radius: 12px;
 	position: relative;
 	left: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: var(--tg-theme-bg-color);
-	background: var(--tg-theme-text-color);
+	color: black;
+	background: orange;
 	transition: background .2s linear;
 }
 
