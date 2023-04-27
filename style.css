@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   background: white;
 }
@@ -6,10 +12,29 @@ body {
 	max-width: 390px;
 }
 
-.inner {
+label {
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+}
+
+#select-sign {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid template-rows: 200px 200px 200px;
+}
+
+#select-day {
+	display: none;
+}
+
+input {
+	appearance: none;
+	border-radius: 50%;
+	border: 10px solid grey;
+	transition: 0.2s all linear;
+	position: relative;
+	margin: 10px 10px;
 }
 
 button {
@@ -22,7 +47,7 @@ button:hover {
 }
 
 input:focus {
-  border-color: #db5d5d;
+  border-color: orange;
 }
 
 .img {
@@ -31,7 +56,7 @@ input:focus {
 	object-fit: none;
 }
 
-.item {
+#select-sign .item {
 	text-align: center;
 }
 
