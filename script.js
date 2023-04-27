@@ -32,12 +32,12 @@ day_btn.addEventListener("click", () => {
 		if (radio_button.checked) {			
 			selected_day = radio_button.value;
 
-			const reply = {
+			const data = {
 			sign: sign,
 			day: selected_day
 			};
 
-			tg.sendData(reply);
+			tg.sendData(JSON.stringify(data));
 
 			tg.close();
 			
