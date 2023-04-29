@@ -33,7 +33,7 @@ day_btn.addEventListener("click", () => {
 			selected_day = radio_button.value;
 
 			const data = {
-			sign: sign,
+			sign: sign.slice(4),
 			day: selected_day
 			};
 
